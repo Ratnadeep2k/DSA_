@@ -6,6 +6,7 @@ void bubbleSort(int arr[],int n){
     for (size_t i = n-1; i>=0; i--)
     {
         /* code */
+        int didSwap = 0;
         for (size_t j = 0; j<= i-1; j++)
         {
             /* code */
@@ -13,7 +14,11 @@ void bubbleSort(int arr[],int n){
                 int temp = arr[j+1];
                 arr[j+1] = arr[j];
                 arr[j] = temp;
+                didSwap = 1;
             }
+        }
+        if(didSwap == 0){
+            break;
         }
         
     }
