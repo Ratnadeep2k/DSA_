@@ -1,5 +1,4 @@
-#include<bits/stdc++.h>
-using namespace std;
+
 int fun(int n ,vector<int> &dp){
         if(n<=1) return n;
         if(dp[n]!=-1) return dp[n];
