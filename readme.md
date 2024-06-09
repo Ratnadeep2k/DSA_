@@ -1,4 +1,4 @@
 ## DSA Sheet 
 
 - All practice problems 
-- No update
+- Leetcode and GFG practice problems
