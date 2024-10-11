@@ -10,3 +10,7 @@ class Solution {
         return head;
     }
 };
+
+
+
+//curr the next pointer which is pointing to next node
