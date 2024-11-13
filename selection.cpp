@@ -30,10 +30,10 @@ class Solution
        for(int i =0;i<n-1;i++){
            int mini =select(arr,i,n);
             if (mini!= i){
-           std::swap(arr[i], arr[mini]);
+           swap(arr[i], arr[mini]);
        }
        }
-    }
+    } 
 };
 
 //{ Driver Code Starts.
@@ -44,7 +44,7 @@ void printArray(int arr[], int size)
     int i;
     for (i=0; i < size; i++)
         printf("%d ", arr[i]);
-    printf("\n");
+         printf("\n");
 }
  
 // Driver program to test above functions
@@ -65,7 +65,7 @@ int main()
     ob.selectionSort(arr, n);
     printArray(arr, n);
     
-cout << "~" << "\n";
+    cout << "~" << "\n";
 }
     return 0;
 }
